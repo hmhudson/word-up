@@ -114,6 +114,12 @@ function render() {
     $("#current-score").text(currentScore());
 
     // TODO 2
+    if (model.gameHasStarted == true) {
+        $("#game").show();
+        return;
+    }
+
+    $("#current-time").text(startTimer());
     // Update the curent time remaining on the scoreboard.
 
 
