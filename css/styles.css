@@ -70,3 +70,11 @@ input:focus {
     border: 2px solid #4285F4; /* Bootstrap "primary" blue */
     outline-color: #4285f4; /* outline is the fuzzy "glow" */
 }
+
+.real-word {
+    background-color: #4285F4;
+}
+
+.unreal-word {
+    background-color: red;
+}
